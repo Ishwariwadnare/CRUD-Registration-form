@@ -59,9 +59,17 @@ http://localhost:3000
 
 ## 📸 Screenshots
 
+### Registration Page
 
+![Register](screenshots/register.png)
 
----
+### Users Dashboard
+
+![Users](screenshots/users.png)
+
+### Edit User Page
+
+![Edit](screenshots/edit.png)
 
 ## 👩‍💻 Author
 
