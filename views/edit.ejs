@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Edit User</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h2>Edit User</h2>
+
+<form action="/users/<%= user.id %>?_method=PUT" method="POST" id="editForm">
+
+<input type="text" name="name" id="name" placeholder="Enter Name" value="<%= user.name %>" required>
+
+<input type="email" name="email" id="email" placeholder="Enter Email" value="<%= user.email %>" required>
+
+<input type="text" name="city" id="city" placeholder="Enter City" value="<%= user.city %>">
+
+<input type="password" name="password" id="password" placeholder="Enter Password" value="<%= user.password %>" required>
+
+<button type="submit">Update User</button>
+
+</form>
+
+<a class="back-btn" href="/users">Back to Users</a>
+
+</div>
+
+</body>
+</html>
